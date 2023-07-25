@@ -1,0 +1,79 @@
+.section-about{
+    width: calc(100% - 19%);
+    position: absolute;
+    right: 0;
+    top: 100%;
+}
+.title{
+    width: 140px;
+    h1{
+        color:$text-principal;
+        padding: 15px 0;
+        margin-left: 30px;
+        border-bottom: $text-principal solid 5px;
+        
+    }
+}
+.my-para{
+    margin-left: 30px;
+    p{
+        padding: 7px 25px 0 10px ;
+
+    }
+}
+.img-info{
+    position: absolute;
+    left: 0;
+    width: 100%;
+    animation-name: info2;
+    animation-duration: 2s;
+    
+    animation-fill-mode: forwards;
+    img{
+        width: 360px;
+       
+    }
+}
+
+// ----------------------------------------------
+.devloper{
+color: $text-principal;
+}
+.birthay{
+    h5{
+        padding: 11px 0;
+    }
+}
+.two-birthay{
+    display: flex;
+    gap: 120px;
+
+}
+.age-etc{
+    position: absolute;
+    right: 0;
+    margin-top: 100px;
+    animation-name: info;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+@keyframes info{
+    0%{
+        right: 0;
+        opacity: 0;
+    }
+    100%{
+        right: 50px;
+        opacity: 1;
+    }
+}
+@keyframes info2{
+    0%{
+        left: 0;
+        opacity: 0;
+    }
+    100%{
+        left: 50px;
+        opacity: 1;
+    }
+}
