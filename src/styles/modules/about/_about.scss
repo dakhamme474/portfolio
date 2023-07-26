@@ -18,13 +18,14 @@
     margin-left: 30px;
     p{
         padding: 7px 25px 0 10px ;
+        width: 100%;
 
     }
 }
 .img-info{
     position: absolute;
     left: 0;
-    width: 100%;
+
     animation-name: info2;
     animation-duration: 2s;
     
@@ -49,6 +50,7 @@ color: $text-principal;
     gap: 120px;
 
 }
+
 .age-etc{
     position: absolute;
     right: 0;
